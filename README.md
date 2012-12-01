@@ -14,7 +14,9 @@ An object, window.browser, is created when browser-detection library
 is loaded. This object gives access to a number of methods such as,
 
 browser.is_chrome()
+
 browser.on_tablet()
+
 browser.on_mac()
 
 etc.
