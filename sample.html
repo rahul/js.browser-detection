@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script type='text/javascript' src='browser-detection.js'></script>
+  </head>
+  <body>
+    <h3> Hello World </h3>
+    <br />
+    <h3> Brower: <span id='browser'></span></h3>
+    <h3> Version: <span id='version'></span></h3>
+    <h3> OS: <span id='os'></span></h3>
+
+    <script type='text/javascript'>
+      document.getElementById('browser').innerText = window.browser.to_string();
+      document.getElementById('version').innerText = window.browser.version();
+      document.getElementById('os').innerText = window.browser.platform();
+    </script>
+  </body>
+</html>
