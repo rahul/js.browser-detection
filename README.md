@@ -3,12 +3,12 @@ js.browser-detection
 
 Browser detection API on the client side
 
-== Setup
+### Setup
 
 Include browser-detection.js/coffee in your list of javascript files, preferrably at
 the top.
 
-== Usage
+### Usage
 
 An object, window.browser, is created when browser-detection library
 is loaded. This object gives access to a number of methods such as,
@@ -21,7 +21,7 @@ etc.
 
 Checkout sample.html and tests for some more examples.
 
-== Background
+### Background
 
 In the search of a straightforward browser detection api (though not
 recommeneded but useful in certain cases), I came across fnando's
@@ -31,7 +31,7 @@ is not supported" pages.
 
 So I migrated his code to javascript and this library was born.
 
-== License
+### License
 
 (The MIT License)
 
@@ -54,5 +54,5 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-== The End
+## The End
 Feel free to contact me in any case. Thank you for using.
